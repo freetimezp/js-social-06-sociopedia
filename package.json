@@ -24,5 +24,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freetimezp/js-social-06-sociopedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freetimezp/js-social-06-sociopedia/issues"
+  },
+  "homepage": "https://github.com/freetimezp/js-social-06-sociopedia#readme",
   "description": ""
 }

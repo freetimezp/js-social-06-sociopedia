@@ -6,7 +6,7 @@ const postSchema = mongoose.Schema(
             type: String,
             required: true,
         },
-        fistName: {
+        firstName: {
             type: String,
             required: true,
         },
@@ -23,7 +23,7 @@ const postSchema = mongoose.Schema(
             of: Boolean,
         },
         comments: {
-            types: Array,
+            type: Array,
             default: [],
         }
     },

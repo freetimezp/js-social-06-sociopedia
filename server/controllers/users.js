@@ -21,8 +21,8 @@ export const getUserFriends = async (req, res) => {
         );
     
         const formattedFriends = friends.map(
-            ({ _id, firstName, lastName, occupation, location, pisturePath }) => {
-                return { _id, firstName, lastName, occupation, location, pisturePath };
+            ({ _id, firstName, lastName, occupation, location, picturePath }) => {
+                return { _id, firstName, lastName, occupation, location, picturePath };
             }
         );
     
@@ -55,8 +55,8 @@ export const addRemoveFriend = async (req, res) => {
             user.friends.map((id) => User.findById(id))
         );
         const formattedFriends = friends.map(
-            ({ _id, firstName, lastName, occupation, location, pisturePath }) => {
-                return { _id, firstName, lastName, occupation, location, pisturePath };
+            ({ _id, firstName, lastName, occupation, location, picturePath }) => {
+                return { _id, firstName, lastName, occupation, location, picturePath };
             }
         );
 
